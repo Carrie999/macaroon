@@ -1,3 +1,3 @@
-# iu.2021
+# Macaroon 2022
 A two-color-ball-inspired colour theme to satisfy your dreams
-![iu-2021](https://raw.githubusercontent.com/Carrie999/iu/main/theme.png)
+![Macaroon-2022](https://raw.githubusercontent.com/Carrie999/macaroon/main/theme.png)

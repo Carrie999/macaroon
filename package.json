@@ -1,56 +1,53 @@
 {
-	"name": "iu",
-	"displayName": "iu 2021",
-	"description": "A two-color-ball-inspired colour theme to satisfy your dreams",
-	"version": "0.1.4",
+	"name": "Macaroon",
+	"displayName": "Macaroon 2022",
+	"description": "Macaroon",
+	"version": "0.1.0",
 	"author": "yajing pang",
 	"publisher": "Carrie999",
 	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Carrie999/iu"
+		"url": "https://github.com/Carrie999/macaroon"
 	},
 	"engines": {
 		"vscode": "^1.33.0"
 	},
 	"keywords": [
-		"spring",
 		"soft",
-		"iu"
+		"macaroon"
 	],
 	"categories": [
 		"Themes"
 	],
 	"activationEvents": [
-		"*",
-		"onCommand:synthwave84.enableNeon",
-		"onCommand:synthwave84.whatsNew"
+		"*"
 	],
 	"main": "./src/extension.js",
 	"contributes": {
 		"themes": [
 			{
-				"label": "iu",
+				"label": "macaroon",
 				"uiTheme": "vs-dark",
 				"path": "./themes/synthwave-color-theme.json"
 			}
 		],
 		"commands": [
 			{
-				"command": "iu.enableNeon",
-				"title": "Synthwave '84: Enable Neon Dreams"
+				"command": "macaroon.enableNeon",
+				"title": "macaroon"
 			},
 			{
-				"command": "iu.disableNeon",
-				"title": "iu: Disable Neon Dreams"
+				"command": "macaroon.disableNeon",
+				"title": ""
 			},
 			{
-				"command": "iu.whatsNew",
-				"title": "iu: What's New"
+				"command": "iu: Disable Neon Dreams.whatsNew",
+				"title": ""
 			}
 		],
 		"configuration": {
-			"title": "iu 2020",
+			"title": "Macaroon 2022",
 			"properties": {
 				"iu.brightness": {
 					"type": "number",
